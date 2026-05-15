@@ -13,10 +13,12 @@ h2 { font-weight: 400; letter-spacing: 0.04em; font-size: 1.2em; margin: 2.5em 0
 .tagline { color: #b89876; font-style: italic; margin: 0 0 2em; }
 a { color: #d4a86a; text-decoration: none; }
 a:hover { text-decoration: underline; }
-ul { padding-left: 1.2em; }
-ul li { margin: 0.4em 0; }
+ul.releases { list-style: none; padding: 0; }
+ul.releases li { margin: 0.6em 0; padding: 0.6em 0; border-bottom: 1px solid #2a1f17; }
+ul.releases li:last-child { border-bottom: none; }
 .platforms { display: flex; gap: 1.5em; flex-wrap: wrap; margin: 1em 0; }
 .platforms a { padding: 0.5em 1em; border: 1px solid #3a2a1f; border-radius: 4px; }
+.pending { color: #8a7560; font-size: 0.9em; }
 .contact { margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #3a2a1f; font-size: 0.95em; }
 .contact p { margin: 0.3em 0; }
 .footer { margin-top: 4em; padding-top: 1.5em; border-top: 1px solid #2a1f17; font-size: 0.85em; color: #6f5f4f; }
@@ -33,15 +35,15 @@ ul li { margin: 0.4em 0; }
 <a href="https://music.apple.com/artist/beneath-the-hollow-wind">Apple Music</a>
 <a href="https://www.youtube.com/@BeneathTheHollowWind">YouTube</a>
 </div>
-<h2>Featured Releases</h2>
-<ul>
-<li>Tokyo Rain Night - Lo-fi soundscapes of nighttime Tokyo</li>
-<li>Cosmic Drift - Deep space ambient</li>
-<li>Rain Sanctuary - The shelter of rain</li>
-<li>Wa Garden - Japanese garden atmospheres</li>
-<li>Midnight Frequencies - Late-night electronic ambient</li>
-<li>Tide Memory - Memory of the sea</li>
-<li>Hollow Echoes - Stillness and cave-like ambient</li>
+<h2>Releases</h2>
+<ul class="releases">
+<li><a href="https://open.spotify.com/album/4LhWOsDR4Kd3za7EFJ8XR9">Rain Sanctuary</a> - The shelter of rain</li>
+<li><a href="https://open.spotify.com/album/5pLAEQoEHJPa1LfUt7z6je">Midnight Circuit</a> - Late-night electronic ambient</li>
+<li><a href="https://open.spotify.com/album/5OYX8T5Xbkws9bOEOGjQLu">Tidewater Hours</a> - Memory of the sea</li>
+<li><a href="https://open.spotify.com/album/7GnX2vN7HSCcOo5QkTE8T5">The Hollow Sessions</a> - Stillness and cave-like ambient</li>
+<li><span class="pending">Cosmic Drift - Deep space ambient (coming to Spotify)</span></li>
+<li><span class="pending">Stillness of Wa - Japanese garden atmospheres (coming to Spotify)</span></li>
+<li><span class="pending">Tokyo Rain Night - Lo-fi soundscapes of nighttime Tokyo (coming to Spotify)</span></li>
 </ul>
 <h2>About</h2>
 <p>An independent ambient music project based in Tokyo. All music is released weekly, focused on long-form listening for sleep, study, and meditation. Each album builds around a single mood and a specific natural element - rain, fireplace, stars, gardens.</p>
